@@ -7,5 +7,6 @@
   * Notepad++, of course.
 
 ## Installation:
-Copy the Material-Dark.xml file to "%APPDATA%\Notepad++\themes" and in a portable installation to "%INSTALL FOLDER%\themes"
+Copy the Material-Dark.xml file to "%APPDATA%\Notepad++\themes" and in a portable installation to "%INSTALL FOLDER%\themes".
+
 Or jus import it to Notepad++ by going to Menu -> Settings -> Import -> Import Style theme(s) option.
