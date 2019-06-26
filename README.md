@@ -16,4 +16,4 @@ Simply downloading the xml file only from GitHub doesn't work, because the file 
 You have to:
   * download the whole project
   * extract the xml file and copy it in C:\Users<YourUser>AppData\Roaming\Notepad++\themes\
-restart Notepad and enable the theme
+  * restart Notepad and enable the theme
