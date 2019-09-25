@@ -2,7 +2,7 @@
 <!--//
 
 Material Theme Dark
-Copyright (c) 2016 Ali Naderi
+Copyright (c) 2019 Ali Naderi
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -30,7 +30,7 @@ Requirements:
     * Notepad++, of course.
 
 Installation:
-    Copy this file to "%APPDATA%\Notepad++\themes" and in a portable installation to "%INSTALL FOLDER%\themes"
+    Copy this file to C:\Documents and Settings\%%USERNAME%%\Application Data\Notepad++\
 
 About:
     This styler has been built by Ali Naderi
@@ -41,18 +41,6 @@ Credits:
 //-->
 <NotepadPlus>
     <LexerStyles>
-        <LexerType name="powershell" desc="PowerShell" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="EEFFFF" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="5F5A60" bgColor="212121" fontName="" fontStyle="2" fontSize="12" />
-            <WordsStyle name="STRING" styleID="2" fgColor="C3E88D" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
-            <WordsStyle name="CHARACTER" styleID="3" fgColor="C3E88D" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="F78C6C" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
-            <WordsStyle name="VARIABLE" styleID="5" fgColor="7587A6" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
-            <WordsStyle name="OPERATOR" styleID="6" fgColor="FFCB6B" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="FFCB6B" bgColor="212121" fontName="" fontStyle="0" fontSize="12" keywordClass="instre1" />
-            <WordsStyle name="CMDLET" styleID="9" fgColor="CDA869" bgColor="212121" fontName="" fontStyle="0" fontSize="12" keywordClass="instre2" />
-            <WordsStyle name="ALIAS" styleID="10" fgColor="EEFFFF" bgColor="212121" fontName="" fontStyle="0" fontSize="12" keywordClass="type1" />
-        </LexerType>
         <LexerType name="c" desc="C" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="B2CCD6" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="EEFFFF" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
@@ -233,6 +221,14 @@ Credits:
             <WordsStyle name="COMMENT" styleID="42" fgColor="5F5A60" bgColor="212121" fontName="" fontStyle="2" fontSize="12" />
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="5F5A60" bgColor="212121" fontName="" fontStyle="2" fontSize="12" />
             <WordsStyle name="COMMENTDOC" styleID="44" fgColor="5F5A60" bgColor="212121" fontName="" fontStyle="2" fontSize="12" />
+        </LexerType>
+        <LexerType name="json" desc="JSON" ext="">
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="EEFFFF" bgColor="212121" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF5370" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING DOUBLE QUOTE" styleID="6" fgColor="C3E88D" bgColor="212121" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING SINGLE QUOTE" styleID="7" fgColor="C3E88D" bgColor="212121" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BOOLEAN NULL" styleID="5" fgColor="CEDF99" bgColor="212121" fontName="" fontStyle="3" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFCB6B" bgColor="212121" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="asp" desc="asp" ext="asp">
             <WordsStyle name="DEFAULT" styleID="81" fgColor="EEFFFF" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
@@ -759,7 +755,7 @@ Credits:
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
-        <WidgetStyle name="Global override" styleID="0" fgColor="EEFFFF" bgColor="212121" fontName="Monaco" fontStyle="0" fontSize="12" />
+        <WidgetStyle name="Global override" styleID="0" fgColor="EEFFFF" bgColor="212121" fontName="Fira Code" fontStyle="0" fontSize="11" />
         <WidgetStyle name="Default Style" styleID="32" fgColor="EEFFFF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="F78C6C" bgColor="212121" fontName="" fontStyle="0" fontSize="12" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFCB6B" bgColor="212121" fontName="" fontStyle="1" fontSize="12" />
